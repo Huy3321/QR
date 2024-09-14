@@ -1,0 +1,130 @@
+.callstaff-container {
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 200;
+  width: 100vw;
+  padding: 16px;
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  .cs-close-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    img {
+      height: 20px;
+      width: 20px;
+    }
+  }
+  .cs-title {
+    color: #363636;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  .cs-sub-title {
+    color: #363636;
+    margin-top: 4px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  .cs-input-container {
+    margin-top: 12px;
+    background-color: #f5f5f5;
+    border: 1px solid #eee;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    border-radius: 8px;
+    img {
+      position: absolute;
+      margin-top: 12px;
+      margin-left: 10px;
+    }
+    input {
+      -webkit-box-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      width: 100%;
+      padding: 14px 14px 14px 52px;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      border-radius: 8px;
+      color: #363636;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0;
+      text-align: left;
+    }
+  }
+  .cs-function-title {
+    color: #636363;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .cs-quick-action-container {
+    margin-top: 8px;
+    height: 120px;
+    div {
+      float: left;
+      margin-right: 8px;
+      margin-bottom: 8px;
+      border-radius: 8px;
+      border: 1px solid #eee;
+      height: 36px;
+      padding: 0 20px;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #363636;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 0;
+      text-align: left;
+    }
+    .selected {
+      border-color: #f7941e;
+      color: #f7941e;
+      background-color: rgba(247, 148, 30, 0.1215686275);
+    }
+  }
+  .cs-send-request-button {
+    height: 45px;
+    border: 1px solid #f7941e;
+    // display: flex;
+    border-radius: 8px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(247, 148, 30);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

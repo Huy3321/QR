@@ -1,0 +1,79 @@
+/* General container for the statistics page */
+.statistic-container {
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Date picker container */
+.date-picker-container {
+  display: flex;
+  //   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Labels for date pickers */
+.label {
+  margin: 0 10px;
+  //   font-weight: bold;
+  color: #555;
+}
+
+/* Input styles for date pickers */
+.date-picker-input {
+  padding: 8px;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  margin-bottom: 20px;
+}
+
+/* Styling for the statistics table */
+.statistics-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Table headers and cells */
+.statistics-table th,
+.statistics-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Header styling */
+.statistics-table thead th {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+/* Alternating row colors for better readability */
+.statistics-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for rows */
+.statistics-table tr:hover {
+  background-color: #e2e2e2;
+}

@@ -1,0 +1,31 @@
+.interaction-item {
+  border-radius: 8px;
+  width: 30%;
+  height: 90px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 8px rgba(63, 63, 70, 0.1);
+  .image-background {
+    height: 42px;
+    width: 42px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-description {
+    padding-top: 10px;
+  }
+}
+
+.text-description {
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  text-align: center;
+}

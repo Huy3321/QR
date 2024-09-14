@@ -1,0 +1,47 @@
+.revenue-container {
+  min-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.dropdown-container {
+  display: flex;
+  align-items: center;
+  // justify-content: center;
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+.year-select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.year-select:hover {
+  border-color: #999;
+}
+
+.chart-container {
+  min-width: 800px;
+  width: 80%;
+  // height: 60%;
+}

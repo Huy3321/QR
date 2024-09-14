@@ -1,0 +1,159 @@
+.list-product-container {
+  width: 100%;
+  min-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-product-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-title {
+  font-size: 2rem; /* Larger font size for the title */
+  color: #333;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.sort-button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+}
+
+.sort-button:hover {
+  background-color: #1976d2;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-table thead th {
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.edit-button {
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color:grey;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color:#2196f3;
+}
+
+/* edit container */
+
+.edit-product-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.edit-product-form {
+  display: flex;
+  gap: 20px;
+}
+
+.edit-left-side {
+  flex: 1;
+}
+
+.edit-right-side {
+  flex: 1;
+}
+
+.edit-form-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.edit-reset-button,
+.edit-submit-button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-reset-button {
+  background-color: #ccc;
+  color: #333;
+}
+
+.edit-reset-button:hover {
+  background-color: #bbb;
+}
+
+.edit-submit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-submit-button:hover {
+  background-color: #45a049;
+}
+
+.edit-image-previews {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.edit-image-preview img {
+  max-width: 280px;
+  max-height: 280px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-table img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover; /* Đảm bảo ảnh không bị méo khi thay đổi kích thước */
+}

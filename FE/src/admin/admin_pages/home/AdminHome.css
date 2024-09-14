@@ -1,0 +1,23 @@
+.requests-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .requests-table th,
+  .requests-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .requests-table th {
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  

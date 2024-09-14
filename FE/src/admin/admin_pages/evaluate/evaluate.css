@@ -1,0 +1,75 @@
+.evaluate-container {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .evaluate-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .evaluate-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .filter-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .filter-container label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .filter-container input {
+    padding: 4px;
+    border-radius: 4px;
+    margin-right: 8px;
+  }
+  
+  .filter-container .react-datepicker-wrapper {
+    margin-right: 8px;
+  }
+  
+  .evaluate-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .evaluate-table th,
+  .evaluate-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .evaluate-table thead th {
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  .low-rating {
+    background-color: #ffcccc; /* Light red background for 1-2 stars */
+  }
+  
+  .high-rating {
+    background-color: #ccffcc; /* Light green background for 5 stars */
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  

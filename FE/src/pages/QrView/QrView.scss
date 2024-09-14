@@ -1,0 +1,80 @@
+.qr-view-container {
+  // min-height: 100vh;
+
+  .qr-view-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 20;
+    background-color: #fff;
+
+    .qr-view-back-button {
+      display: flex;
+      align-items: center;
+      border-radius: 8px;
+      padding: 6px;
+      border: 1px solid #dddddd;
+
+      img {
+        height: 16px;
+      }
+    }
+
+    .qr-view-title {
+      font-size: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  .qr-view-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px; // Adjust if needed based on the header height
+  }
+
+  .qr-code-image {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .qr-view-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    width: 100%;
+
+    .copy-account-button,
+    .save-qr-button {
+      width: 90%; // Buttons will take up 90% of the container width
+      padding: 12px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .copy-account-button {
+      background-color: #dddddd;
+      color: black;
+    }
+
+    .save-qr-button {
+      background-color: #ff9800;
+      color: white;
+    }
+  }
+
+  .qr-view-footer {
+    height: 115px; // Adjust if needed
+  }
+}
